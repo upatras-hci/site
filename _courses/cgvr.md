@@ -9,5 +9,4 @@ semester: 1
 type: "Optional"
 ects: 
 books: 
-  - 
 ---
