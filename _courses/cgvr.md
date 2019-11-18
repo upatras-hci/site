@@ -6,7 +6,7 @@ excerpt: ""
 uri: ""
 code: HCI104
 semester: 1
-type: "Option"
+type: "Optional"
 ects: 
 books: 
   - 
