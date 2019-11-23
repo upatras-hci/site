@@ -1,5 +1,5 @@
 ---
-id: choko
-title: "Konstantinos Chorianopoulos"
-uri: "http://users.ionio.gr/~choko/"
+id: sgarbas
+title: "Kyriakos Sgarbas"
+uri: "https://sites.google.com/site/sgarbaskyriakos/"
 ---
