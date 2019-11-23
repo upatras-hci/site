@@ -2,9 +2,10 @@
 ref: snlp
 title: "Speech and Natural Language Processing"
 author: 
-  - choko
-  - karacap
-excerpt: "Introduction to collaborative technologies"
+  - Nikos Fakotakis
+  - Kyriakos Sgarbas
+  - Evangelos Dermatas
+excerpt: "Speech and Natural Language Processing"
 uri: "https://openup.upatras.gr/courses/109/"
 code: HCI106
 semester: 1
