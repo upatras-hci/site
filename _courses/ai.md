@@ -4,7 +4,8 @@ title: "Articifial Intelligence"
 author: 
   - ihatzily
   - mouko
-excerpt: "Introduction to collaborative technologies"
+  - dermaev
+excerpt: "Artificial Intelligence"
 uri: "https://openup.upatras.gr/courses/108/"
 code: HCI108
 semester: 1
