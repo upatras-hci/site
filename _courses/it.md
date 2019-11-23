@@ -2,8 +2,8 @@
 ref: it
 title: "Interactive Technologies"
 author: 
-       - "avouris"
-       - "sintoris"
+       - "Avouris Nikolaos"
+       - "Sintoris Christos"
 excerpt: ""
 uri: "https://openup.upatras.gr/courses/104/"
 code: HCI103
