@@ -1,6 +1,6 @@
 ---
 ref: sintoris
-title: "Χρήστος Σιντόρης"
+title: "Christos Sintoris"
 bio: "Teaching & Research Associate, HCI Group, University of Patras"
 email: "sintoris@upatras.gr"
 uri:  "https://hci.ece.upatras.gr/people/sintoris/"
