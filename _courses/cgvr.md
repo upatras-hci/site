@@ -1,6 +1,6 @@
 ---
 ref: cgvr
-title: "Computer Graphics and Virtual Reality"
+title: "Speech and natural language processing"
 author: mouko
 excerpt: ""
 uri: ""
