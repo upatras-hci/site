@@ -5,7 +5,7 @@ author:
   - xenmi
   - rigoma
 excerpt: ""
-uri: "https://openup.upatras.gr/courses/109/"
+uri: ""
 code: HCI201
 semester: 2
 type: "Compulsory"
