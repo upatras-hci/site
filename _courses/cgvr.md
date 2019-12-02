@@ -1,6 +1,6 @@
 ---
 ref: cgvr
-title: "Computer Graphics and Virtual Reality"
+title: " Lesson"
 author: mouko
 excerpt: ""
 uri: ""
