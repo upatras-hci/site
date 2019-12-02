@@ -1,7 +1,7 @@
 ---
 ref: cgvr
-title: " Lesson"
-author: mouko
+title: "Speech and natural language processing "
+author: 
 excerpt: ""
 uri: ""
 code: HCI104
