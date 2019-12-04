@@ -1,7 +1,9 @@
 ---
 ref: fewd
-title: "Front End Web Programmingy"
-author: Nikolaos Avouris,Christos Sintoris
+title: "Front End Web Programming"
+author: 
+  - avouris
+  - sintoris
 excerpt: "Front end development tools"
 uri: ""
 code: HCI207
