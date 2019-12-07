@@ -1,5 +1,5 @@
 ---
-ref: ctdl.md
+ref: ctdl
 title: "Creative Design Lab"
 author: Irene Mauromati
 excerpt: "Interactive Design"
