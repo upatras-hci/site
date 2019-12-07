@@ -1,6 +1,6 @@
 ---
-title: "Fist lab"
-excerpt: "Fist lab of the Graphics and Virtual Reality"
+title: "First lab"
+excerpt: "First lab of the Graphics and Virtual Reality"
 category:
   - laboratory
   - students
