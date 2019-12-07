@@ -1,7 +1,9 @@
 ---
 ref: lba
 title: "Design of Location-based applications"
-author: Nikolaos Avouris,Christos Sintoris
+author:
+  - avouris
+  - sintoris
 excerpt: "Design and create location based apps."
 uri: ""
 code: HCI208
