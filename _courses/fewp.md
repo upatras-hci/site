@@ -1,6 +1,6 @@
 ---
 ref: fewp
-title: "Front End Web Programming "
+title: "Front End Web Programming"
 author: 
   - Avouris
   - Sintoris
