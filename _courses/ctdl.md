@@ -1,7 +1,7 @@
 ---
 ref: ctdl
 title: "Creative Design Lab"
-author: mavir
+author:  mavrommati
 excerpt: "Interactive Design"
 uri: "https://openup.upatras.gr/modules/auth/courses.php?fc=14"
 code: HCI106
