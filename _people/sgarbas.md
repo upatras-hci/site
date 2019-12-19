@@ -1,5 +1,5 @@
 ---
 id: sgarbas
 title: "Kyriakos Sgarbas"
-uri:  "http://goo.gl/8roJe"
+uri:  "https://sites.google.com/site/sgarbaskyriakos/"
 ---
