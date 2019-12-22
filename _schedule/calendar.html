@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+
+ {% assign events = site.data.events}
+    <section class="events">
+        <h2 class="title-section">Program of lectures</h2>
+        <ul class="event-list">
+            {% for event in events %}
+                {% if forloop.index <= 5 %}
+                    <li class="event-item">
+                    <div class="event-title">{{ event.title }}</div>
+                    <div class="event-day">{{ event.day }}</div>
+                    <div class="event-start">{{ event.start }}</div>
+                    <div class="event-end">{{ event.end }}</div>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
