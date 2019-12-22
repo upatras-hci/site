@@ -1,0 +1,24 @@
+    - title: Software Quality
+      day: Monday
+      start: 12:00
+      end: 15:00
+
+    - title: Cognitive Ergonomics
+      day: Monday
+      start: 18:00
+      end: 21:00
+      
+    - title: Computer Graphics & VR
+      day: Tuesday, Tuesday
+      start: 12:00
+      end: 15:00
+
+    - title: Interactive Technologies
+      day: Thurday
+      start: 12:00
+      end: 15:00
+
+    - title: Research Methods
+      day: Thurday
+      start: 15:00
+      end: 21:00
