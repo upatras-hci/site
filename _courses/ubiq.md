@@ -1,5 +1,5 @@
 ---
-ref: uq
+ref: ubiq
 title: "Ubiquitous Computing"
 author: 
   - fidas
