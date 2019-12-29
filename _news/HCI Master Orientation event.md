@@ -5,11 +5,8 @@ category:
   - secretary
   - students
 tags:
- - orientation event
- 
+ - orientation event 
 ---
-
-
 
 On October 3rd the Introductory and Orientation event of the HCI Master for academic year 2019-2020 took place. 
 The event was opened by a welcome message of Prof. Stavros Koubias, Head of the Electrical and Computer Engineering Department and a 
