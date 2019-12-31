@@ -14,6 +14,30 @@ Please note that there exists a code of conduct, please follow it in all your in
 3. You may merge the Pull Request once it is reviews by the repository owner or any other
    reviewers (if applicable).
 
+## Following the Roadmap 
+
+If you would like to contribute a new file or a change to an existing file, you must first declare it by opening a new topic with the corresponding title, 
+so that we can avoid problems like doing the same job and improve collaboration on a difficult site feature.
+
+So, when opening a new issue/discussion topic, please consult the repository's roadmap, which can be found [here][roadmap]
+
+## Common Mistakes and how to avoid them
+
+Two of the most common mistakes that can occur during the contribution process are the following:
+1. Sending a pull request without linking it with its corresponding closing issue
+2. Formatting data files without following a consistent format related to other data
+
+To avoid the first problem, it is mandatory that when you create a pull request, you reference the Issue you are closing. In the description, you may write 'closes #No', where No is the Issue number and is can be automatically completed when typing the symbol #.
+
+To avoid the second problem, you should always update your forked repository to keep up with latest changes and data files, so synchronization is mandatory (also useful for the collaboration between the repository users). In this manner, one may follow the format of the other person to follow consistency. For example, when one creates a new file (let's say a news data file), the date should be part of the file name. Unless the same format is followed by everyone, filenames for the news will have different format and consistency issues may arize during the site's construction on later stages.
+
+Below are presented some acceptable format templates for different site categories (please comply with the file name and contents approach):
+
+* Template for creating a people file: [template][people_template]
+* Template for creating a news file: [template][news_template]
+* Template for creating a schedule file: *to be created...*
+* Template for creating a courses file: [template][courses_template]
+
 ## Code of Conduct
 
 ### Our Pledge
@@ -71,7 +95,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project's [repository owner][owner] . All
+reported by contacting the project's [repository owner][owner]. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project owner is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -89,3 +113,7 @@ available at [http://contributor-covenant.org/version/1/4][version]
 [owner]: https://github.com/epidrome
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+[roadmap]: https://github.com/upatras-hci/site/issues/1
+[people_template]: https://github.com/upatras-hci/site/blob/master/_people/choko.md
+[news_template]: https://github.com/upatras-hci/site/blob/master/_news/2019-01-14-call-for-2019-2020
+[courses_template]: https://github.com/upatras-hci/site/blob/master/_courses/cscw.md
