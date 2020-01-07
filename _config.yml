@@ -61,6 +61,21 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
 
+# Collections
+collections:
+  people:
+    output: true
+    permalink: /people/:path/
+  courses:
+    output: true
+    permalink: /courses/:path/
+  pages:
+    output: true
+    permalink: /:path/
+  news:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
+
 defaults:
   # _posts
   - scope:
