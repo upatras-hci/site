@@ -1,6 +1,6 @@
 ---
 ref: choko
-title: "Κωνσταντίνος Χωριανόπουλος"
+title: "Konstantinos Chorianopoulos"
 excerpt: "Τεχνολογίες Λογισμικού"
 rank: 3
 author: choko

@@ -44,7 +44,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/site/people/avouris/",
         "teaser":null},{
-        "title": "Κωνσταντίνος Χωριανόπουλος",
+        "title": "Konstantinos Chorianopoulos",
         "excerpt":"Education:  “Δίπλωμα Ηλεκτρονικών Μηχανικών και Μηχανικών Υπολογιστών, Πολυτεχνείο Κρήτης”  “Μεταπτυχιακό Μάρκετινγκ και Επικοινωνία με Νέες Τεχνολογίες, Τμήμα Μάρκετινγκ και Επικοινωνίας, Οικονομικό Πανεπιστήμιο Αθηνών”  “Διδακτορικό Δίπλωμα, Επικοινωνία Ανθρώπου-Υπολογιστή για την Ψηφιακή Τηλεόραση, Τμήμα Διοικητικής Επιστήμης και Τεχνολογίας, Οικονομικό Πανεπιστήμιο Αθηνών”","categories": [],
         "tags": [],
         "url": "http://localhost:4000/site/people/choko/",
@@ -104,9 +104,14 @@ var store = [{
         "tags": ["orientation event"],
         "url": "http://localhost:4000/site/posts/2019/10/03/HCIMasterOrientationEvent/",
         "teaser":null},{
-        "title": "Ieeevr",
-        "excerpt":"title: “IEEE VR Contest”excerpt: “Expression of interest for IEEE VR Contest”category: studentstags: IEEE VR Contest Αγαπητοί φοιτητές, Την ερχόμενη Παρασκευή 18/10, στις 11 το πρωί, στο χώρο που κάνουμε εργαστήριο, θα οριστούν οι ομάδες που θα συμεμτάσχουν στο διαγωνισμό του ΙΕΕΕ VR.Παρακαλώ όσες ομάδες φοιτητών, αλλά και μεμονωμένα άτομα, ενδιαφέρονται...","categories": [],
-        "tags": [],
+        "title": "First lab",
+        "excerpt":"Για το εργαστήριο που θα γίνει αύριο, καλό θα ήταν να ρίξετε μια γρήγορη ματιά στο παρακάτω pdf για να έχετε μια ιδέα σχετικά με το User Interface της Unity ώστε όσο γίνεται να μην χρειαστεί να αφιερώσουμε χρόνο σε αυτό.https://drive.google.com/open?id=1Q5khmzY3royuGOilb-vndZkvFYZa-lpt","categories": ["laboratory","students"],
+        "tags": ["lab"],
+        "url": "http://localhost:4000/site/posts/2019/10/10/newsGVRfirstlab/",
+        "teaser":null},{
+        "title": "IEEE VR Contest",
+        "excerpt":"Αγαπητοί φοιτητές,Την ερχόμενη Παρασκευή 18/10, στις 11 το πρωί, στο χώρο που κάνουμε εργαστήριο, θα οριστούν οι ομάδες που θα συμεμτάσχουν στο διαγωνισμό του ΙΕΕΕ VR.Παρακαλώ όσες ομάδες φοιτητών, αλλά και μεμονωμένα άτομα, ενδιαφέρονται να έρθουν για συζήτησημαζί με θεματικές προτάσεις επί του προβλήματος του διαγωνισμού για να οριστικοποιήσουμε τις...","categories": ["students"],
+        "tags": ["IEEE VR","Contest"],
         "url": "http://localhost:4000/site/posts/2019/10/14/IEEEVR/",
         "teaser":null},{
         "title": "Call for applications 2020-2021",
