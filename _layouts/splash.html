@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+     
+    </section>
+  </article>
+  <!--div id="map" style="display: contents !important; position: relative !important; overflow: visible !important;width: 300px !important;height: 300px !important;"></div>
+    
+  <button class="btn btn-outline-info" type="button" value="track">
+    track me
+  </button-->
+  <div class="map" >
+    <iframe src="https://maps.google.com/maps?q=university%20of%20patras&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!--script>
+  // Note: This example requires that you consent to location sharing when
+  // prompted by your browser. If you see the error "The Geolocation service
+  // failed.", it means you probably did not give permission for the browser to
+  // locate you.
+  var map, infoWindow;var watchID = null;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 38.246308, lng: 21.735077},
+      zoom: 6
+    });
+    infoWindow = new google.maps.InfoWindow;
+    var optn = {
+      enableHighAccuracy: true,
+      timeout: Infinity,
+      maximumAge: 0	
+    };
+    
+    
+    if (navigator.geolocation) {
+      this.isTracking = true;
+      navigator.geolocation.watchPosition((position,optn) => {
+        this.showTrackingPosition(position);
+      });
+    } 
+    
+ 
+  }
+    
+  
+  function showTrackingPosition(position) {
+    console.log(`tracking postion:  ${position.coords.latitude} - ${position.coords.longitude}`);
+    var googleLatLng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+      var mapOtn={
+          zoom:17,
+          center:googleLatLng,
+          mapTypeId:google.maps.MapTypeId.ROAD
+      };
+    
+      var Pmap=document.getElementById("map");
+    
+      var map=new google.maps.Map(Pmap, mapOtn);
+      addMarker(map, googleLatLng, "Event", 'HCI MASTER');
+   
+    
+  }
+  function addMarker(map, googleLatLng, title, content){
+      var markerOptn={
+          position:googleLatLng,
+          map:map,
+          title:title,
+          animation:google.maps.Animation.DROP
+            };
+    
+      var marker=new google.maps.Marker(markerOptn);
+    
+      var infoWindow=new google.maps.InfoWindow({ content: content, position: googleLatLng});
+        google.maps.event.addListener(marker, "click", function(){
+        infoWindow.open(map);
+      });												   
+  }
+</script>
+
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD1kFmJoDZUAYtlluamZbet8T5WAgLXZ5c&callback=initMap">
+</script-->

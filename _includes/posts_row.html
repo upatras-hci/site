@@ -1,0 +1,31 @@
+{% assign posts = site.posts | sort:"date" | reverse %}
+
+<div class="feature__wrapper">
+
+  {% for post in posts limit:3 %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+    
+        <div class="archive__item-body">
+          {% if post.title %}
+            <h2 class="archive__item-title">{{ post.title }}</h2>
+          {% endif %}
+
+          {% if post.content %}
+            <div class="archive__item-excerpt">
+              {{ post.content | strip_html | truncatewords:20 }}
+            </div>
+          {% endif %}
+
+          {% if post.link %} 
+            <p><a href="{{ post.link }}" class="btn {{ include.btn_class }}">{{ include.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% else %}
+            <p><a href="{{ post.url | absolute_url }}" class="btn {{ include.btn_class }}">{{ include.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
