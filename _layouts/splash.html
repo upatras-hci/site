@@ -1,0 +1,223 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+<style>
+ 
+ #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.block {
+  width: 600px;
+  float: left;
+}
+</style>
+<script src="{{ "/assets/js/vue.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/botui.js" | relative_url }}"></script>
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+	
+    <section class="page__content" itemprop="text">
+      {{ content }}
+     
+    </section>
+  </article>
+  
+  <div class="row">
+
+<div class="block">
+  <div class="botui-app-container" id="home-demo" >
+    <bot-ui>
+  
+  </bot-ui>
+</div>
+</div>
+<div class="block">
+  
+  <div id="map" style="overflow: visible !important;">
+  </div>
+  
+  
+</div>
+</div>
+
+<script>
+  function initMap() {
+    // Styles a map in night mode.
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 38.2899482, lng: 21.7886469},
+      zoom: 12,
+      styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+    });
+    var marker = new google.maps.Marker({position: {lat: 38.2899482, lng: 21.7886469}, map: map});
+
+  }
+</script>
+<script>
+  
+var selections = [];
+var questioncounter = 0;
+var homeBot = BotUI('home-demo');
+
+homeBot.message.add({
+  content: 'Hi there! 👋 Here is MasterBot.'
+}).then(function () {
+  return homeBot.message.add({
+    delay: 1500,
+    content: 'This is the Unofficial MSc Upatras HCI site.'
+  });
+}).then(function () {
+  return homeBot.message.add({
+    delay: 2200,
+    content: 'Can I know your name?'
+  });
+  questioncounter = 0;
+}).then(function () {
+  return homeBot.action.text({
+    delay: 800,
+    action: {
+      value: 'John Doe',
+      placeholder: 'Your name'
+    }
+  });
+}).then(function (res) {
+  selections[0] = res.value;
+  localStorage.setItem("username", res.value);
+  return homeBot.message.bot({
+    delay: 1500,
+    content: res.value + ' nice to meet you!'
+  });
+  
+}).then(function () {
+  return homeBot.message.add({
+    delay: 2200,
+    content: 'Which of the pages below do you wanna visit?'
+  });
+  questioncounter = 1;
+}).then(function () {
+  return homeBot.action.select({ 
+    action: {
+        placeholder : "Select Page", 
+        value: 'Select Page', 
+        searchselect : true, 
+        label : 'text',
+        options : [
+                        {value: "people", text : "people" }, 
+                        {value: "courses", text : "courses" },
+                        {value: "news", text : "news" },
+                  ],
+        button: {
+          icon: 'check', 
+          label: 'OK'
+        }
+      }
+    });
+}).then(function (res) {
+  console.log(res.value); 
+  if (res.value == "news"){ window.open("https://moya10.github.io/site-gr/posts/","_self");}
+  else{window.open("https://moya10.github.io/site-gr/"+res.value+"/","_self");}
+  selections[1] = res.value;
+  localStorage.setItem("page_visited", res.value);	
+});
+
+
+</script>
+
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD1kFmJoDZUAYtlluamZbet8T5WAgLXZ5c&callback=initMap"> 
+
+</script>

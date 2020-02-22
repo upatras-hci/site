@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 1px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 60px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+      <script src="{{ "/assets/js/vue.min.js" | relative_url }}"></script>
+
+        <script src="{{ "/assets/js/botui.js" | relative_url }}"></script>
+     
+<div class="container">
+  <p><strong>Page not found</strong></p>
+  <p>The requested page could not be found.</p>
+  <div class="botui-app-container" id="demo" style="height: 200px !important;">
+    <bot-ui></bot-ui>
+</div>
+</div>
+
+<script>
+var homeBot = BotUI('demo');
+
+homeBot.message.add({
+  content: 'Hey 👋 Did you lost?'
+}).then(function () {
+  return homeBot.message.add({
+    delay: 2500,
+    content: 'This page does not exist!'
+  });
+}).then(function () {
+  return homeBot.message.add({
+    delay: 1500,
+    content: 'Try come back to 🏠 [home](/site-gr/)'
+  });
+});
+</script>
