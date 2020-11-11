@@ -2,6 +2,6 @@ main:
   - title: "Courses"
     url: /courses/
   - title: "People"
-    url: /people/
+    url: /people/people-page.html
   - title: "News"
     url: /news/
