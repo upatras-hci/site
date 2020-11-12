@@ -109,14 +109,10 @@ defaults:
   # _courses
   - scope:
       path: ""
-      type: pages 
+      type: courses 
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout: courses
+
 
 category_archive:
   type: liquid
