@@ -1,7 +1,7 @@
 main:
   - title: "Courses"
-    url: /courses/
+    url: /courses/ai.md
   - title: "People"
     url: /people/people-page.html
   - title: "News"
-    url: /news/
+    url: /news/2019-10-03-HCI-Master-Orientation-event.md
