@@ -1,5 +1,5 @@
 ---
-ref: rmethods
+ref: rmeth
 title: "Research methods"
 author: 
   - xenos
