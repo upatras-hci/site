@@ -3,11 +3,11 @@ ref: cgvr
 title: "Computer Graphics and Virtual Reality"
 author: 
   - moustakas
-excerpt: "ntroduction to Computer Graphics and Virtual Reality"
+excerpt: "Introduction to Computer Graphics and Virtual Reality"
 uri: "https://eclass.upatras.gr/courses/HCI104/"
-code: HCI108
+code: HCI104
 semester: 1
-type: "Option"
+type: "Optional"
 ects: 6
 books: 
 ---
