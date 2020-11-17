@@ -1,5 +1,5 @@
 ---
-ref: cgvr
+ref: snlp
 title: "Speech and Natural Language Processing"
 author: 
   - fakotakis
