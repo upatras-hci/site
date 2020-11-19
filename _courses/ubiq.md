@@ -8,7 +8,7 @@ excerpt: "Ubiquitous Computing"
 uri: ""
 code: HCI205
 semester: 2
-type: "Option"
+type: "Optional"
 ects: 6
 books: 
 ---

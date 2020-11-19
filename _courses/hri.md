@@ -7,7 +7,7 @@ excerpt: "Εισαγωγή στη ρομποτική και στους κλάδ�
 uri: ""
 code: HCI107
 semester: 1
-type: "Option"
+type: "Optional"
 ects: 6
 books:
 ---
