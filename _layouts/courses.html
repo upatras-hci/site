@@ -12,19 +12,22 @@ layout: single
       <th>Εξάμηνο</th>
       <th>Τύπος</th>
       <th>ECTS</th>
+      <th>Books</th>
     </tr>
   </thead>
   <tbody>
       <td align="center">{{ page.code }}</td>
       <td align="center">{{ page.semester }}</td>
-      {% assign category = "" %}
-      {% if page.type == "Mandatory" %} 
-        {% assign category = "Υποχρεωτικό" %}
-      {% elsif page.type == "Option" %}
-        {% assign category = "Επιλογής" %}
-      {% endif %}
-      <td align="center">{{ category }}</td>
+      {% assign type = page.type %}
+      {% for post in type %}
+        {% if post == "Compulsory" %} 
+         <td align="center"> Υποχρεωτικό</td>
+        {% elsif post == "Optional" %}
+          <td align="center"> Επιλογής</td>
+        {% endif %} 
+      {% endfor %}   
       <td align="center">{{ page.ects }}</td>
+      <td align="center">{{ page.books }}</td>
   </tbody>
 </table>
 
