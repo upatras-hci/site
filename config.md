@@ -26,7 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -109,10 +109,14 @@ defaults:
   # _courses
   - scope:
       path: ""
-      type: courses 
+      type: pages 
     values:
-      layout: courses
-
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
@@ -120,5 +124,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-theme: jekyll-theme-minimal
+  
+ include: ["_pages"]
