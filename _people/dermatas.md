@@ -2,5 +2,5 @@
 id: dermatas
 title: "Evangelos Dermatas"
 uri: "https://www.linkedin.com/in/evangelos-dermatas-00458832/?originalSubdomain=gr"
-avatar: "/assets/images/dermatas.jpg"
+avatar: "assets/images/dermatas.jpg"
 ---
