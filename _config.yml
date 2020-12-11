@@ -2,7 +2,7 @@ title: 'MSc HCI - UPatras'
 email: hcimaster@upatras.gr
 description: 'unoficial web site' 
 url: "https://upatras-hci.github.io/site/"
-baseurl: #"/site"
+baseurl: "/site"
 repository: "upatras-hci/site"
 #minimal_mistakes_skin: "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
