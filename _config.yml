@@ -18,7 +18,7 @@ email:
 description: 'unoficial web site' 
 url: "https://upatras-hci.github.io"
 baseurl: "/site"
-repository: "irozg/site"
+repository: "upatras-hci/site"
 twitter_username: # username
 github_username: # username
 minimal_mistakes_skin: default
