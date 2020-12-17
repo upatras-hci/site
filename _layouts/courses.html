@@ -18,9 +18,9 @@ layout: single
       <td align="center">{{ page.code }}</td>
       <td align="center">{{ page.semester }}</td>
       {% assign category = "" %}
-      {% if page.type == "Mandatory" %} 
+      {% if page.type == "Compulsory" %} 
         {% assign category = "Υποχρεωτικό" %}
-      {% elsif page.type == "Option" %}
+      {% elsif page.type == "Optional" %}
         {% assign category = "Επιλογής" %}
       {% endif %}
       <td align="center">{{ category }}</td>
