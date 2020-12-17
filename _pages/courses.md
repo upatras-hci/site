@@ -4,7 +4,7 @@ title: "Μαθήματα"
 permalink: "/courses/"
 ---
 
-{% include toc title = "ΜΑΘΗΜΑΤΑ" icon = "graduation-cap" %}
+{% include toc title = "COURSES" icon = "graduation-cap" %}
 
 # Program outline
 
