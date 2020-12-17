@@ -24,3 +24,4 @@ permalink: "/courses/"
 
 {% include collection-sort.html i = 2 l = 'courses' c_type = "Optional" %}
 
+## **3rd Semester*
