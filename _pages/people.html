@@ -1,0 +1,36 @@
+---
+ref: people
+title: "People"
+layout: single
+---
+
+{% assign people = site.people | sort: "id" %}
+{% for post in people %}
+  {% if post.id %}
+    {% assign title = post.title %}
+    <div class="grid__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if post.avatar %}
+          <div class="archive__author-avatar" style="text-align: center;">
+            <a href="{{ post.uri | absolute_url }}" rel="permalink">
+                  <img src=
+                    {% if post.avatar contains "://" %}
+                      "{{ post.avatar }}"
+                    {% else %}
+                      "{{ post.avatar | absolute_url }}"
+                    {% endif %}
+                    alt="" itemprop="image">
+            </a>
+        {% endif %}
+            <h5>
+              {% if post.uri %}
+                <a href="{{ post.uri }}">{{ title }}</a> <a href="{{ post.uri | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+              {% else %}
+                <a href="{{ post.uri | absolute_url }}" rel="permalink">{{ title }}</a>
+              {% endif %}
+            </h5>
+          </div>
+      </article>
+    </div>
+  {% endif %}
+{% endfor %} 

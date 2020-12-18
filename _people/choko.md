@@ -1,5 +1,6 @@
 ---
 id: choko
 title: "Konstantinos Chorianopoulos"
-uri: "http://users.ionio.gr/~choko/"
+uri: "https://scholar.epidro.me"
+avatar: "assets/images/choko.jpg"
 ---
