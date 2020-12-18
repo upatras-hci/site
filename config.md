@@ -16,9 +16,9 @@
 title: 'MSc HCI - UPatras'
 email:
 description: 'unoficial web site' 
-url: "https://upatras-hci.github.io"
+url: "https://skartz0.github.io"
 baseurl: "/site"
-repository: "upatras-hci/site"
+repository: "skartz0/site"
 twitter_username: # username
 github_username: # username
 minimal_mistakes_skin: default
