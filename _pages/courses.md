@@ -7,10 +7,6 @@ title: "POSTGRADUATE COURSES"
 
 # Program outline
 
-{% include toc title = "COURSES" icon = "graduation-cap" %}
-
-# Program outline
-
 ## **1st Semester – compulsory courses**
 
 {% include collection-sort.html i = 1 l = 'courses' c_type = "Compulsory" %}
