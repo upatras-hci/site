@@ -1,8 +1,11 @@
 ---
 ref: courses
-title: "Μαθήματα"
-permalink: "/courses/"
+title: "POSTGRADUATE COURSES"
 ---
+
+{% include toc title = "COURSES" icon = "graduation-cap" %}
+
+# Program outline
 
 {% include toc title = "COURSES" icon = "graduation-cap" %}
 
