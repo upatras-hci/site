@@ -14,8 +14,8 @@ markdown: kramdown
 
 # Outputting
 permalink: /:categories/:title/
-paginate:  # amount of posts to show
-paginate_path: /page:num/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num
 
 incremental: true
 
