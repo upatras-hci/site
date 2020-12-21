@@ -1,5 +1,5 @@
 ---
-title: "Student projects to be presented at the PCI’2020 conference"
+title: "Student projects to be presented at the PCI2020 conference"
 excerpt: "Event of October 3rd, Introductory and Orientation event of the HCI Master for academic year 2019-2020"
 ---
 
