@@ -5,7 +5,7 @@ layout: single
 ---
 
 {% assign entries_layout = site.news %} 
-{% assign postsByYear = entries_layout | where_exp: "item", "item.hidden != true" | group_by_exp: 'year', 'year.date | date: "%Y"' | sort: 'year', "last"  %}
+{% assign postsByYear = entries_layout | where_exp: "item", "item.hidden != true" | group_by_exp: 'year', 'year.date | date: "%Y"'  | reverse  %}
 
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
