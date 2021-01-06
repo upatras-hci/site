@@ -2,7 +2,15 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-title: #MSc HCI - UPatras
-author_profile: true 
+layout: single
 ---
+{% for post in paginator.posts %}
+<h3 class="archive__subtitle">{{ post.title | default: "Recent Posts" }}</h3>
+{% if post.link %} 
+    <iframe src='{{ post.link | relative_url }}' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+{% endif %}
+<span ><small>Shared via the <a href="{{ post.link | relative_url }}">YouTube</a> on {{ post.date | date: "%D"}}</small></span>
+<p class="text-justify">
+    {{ post.content }}
+</p>
+{% endfor %}
