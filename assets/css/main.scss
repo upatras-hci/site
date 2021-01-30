@@ -31,11 +31,11 @@ body {
 }
  .wide .page{
   @include breakpoint($large) {
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
     padding: 1em 9em;
   }
 }
