@@ -4,13 +4,9 @@ description: 'unoficial web site'
 url: "https://upatras-hci.github.io"
 baseurl: "/site"
 repository: "upatras-hci/site"
-<<<<<<< HEAD
-#minimal_mistakes_skin: "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-=======
 twitter_username: # username
 github_username: # username
 minimal_mistakes_skin: default
->>>>>>> 931f495... Update _config.yml
 search: true
 
 remote_theme: "mmistakes/minimal-mistakes"
