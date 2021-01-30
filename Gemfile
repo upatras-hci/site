@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 # gemspec
 gem 'wdm', '>= 0.1.0'
-gem "jekyll", "~> 3.3.0"
-gem "minimal-mistakes-jekyll"
 gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
