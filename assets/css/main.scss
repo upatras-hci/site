@@ -29,4 +29,13 @@ body {
 .btn {
     font-weight: 500;
 }
+ .wide .page{
+  @include breakpoint($large) {
+    width: calc(100% - 0);
+  }
 
+  @include breakpoint($x-large) {
+    width: calc(100% - 0);
+    padding: 1em 9em;
+  }
+    
