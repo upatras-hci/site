@@ -4,11 +4,11 @@
 
 @charset "utf-8";
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
 $sans-serif : "Montserrat", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $header-font-family: $sans-serif 
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+    
 @import "minimal-mistakes"; // main partials
 
 .page__hero--overlay {
