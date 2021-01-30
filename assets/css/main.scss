@@ -3,9 +3,9 @@
 ---
 
 // change sass varaibles
-$sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$global-font-family: $bobondi !default;
+$sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$roboto: "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$global-font-family: $roboto !default;
 $primary-color: black !default;
 
 @charset "utf-8";
