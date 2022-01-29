@@ -1,0 +1,18 @@
+---
+ref: master-thesis
+title: "Master Thesis"
+layout: single
+---
+
+<h2>Available Master Thesis</h2>
+
+{% assign master = site.masterthesis | sort: "id" %}
+{% for post in master %}
+  {% if post.id %}
+    <div class="list__item">
+        <p style="margin: 0;"><strong>Professor:</strong> {{ post.professor }}</h3>
+        <p><strong>Theme:</strong> {{ post.title }} <span style="color: #d37735;">{{ post.tag }}</span></p>
+    </div>
+  {% endif %}
+{% endfor %} 
+

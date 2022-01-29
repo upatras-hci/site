@@ -53,6 +53,9 @@ collections:
   news:
     output: true
     permalink: /news/:path/
+  masterthesis:
+    output: true
+    permalink: /master-thesis/:path/
   pages:
     output: true
     permalink: /:path/
@@ -86,7 +89,14 @@ defaults:
       type: news
     values:
       sidebar: false
-      layout: single        
+      layout: single
+  # _masterthesis
+  - scope:
+      path: ""
+      type: masterthesis
+    values:
+      sidebar: false
+      layout: single              
 
 category_archive:
   type: liquid
