@@ -1,0 +1,20 @@
+---
+ref: program
+title: "Timetables"
+layout: single
+---
+
+{% assign program = site.program | sort: "semester" %}
+{% for post in program %}
+    <div class="archive__author-avatar" style="text-align: center;">
+        <a href="{{ post.uri | absolute_url }}" rel="permalink">
+            <img src=
+                {% if post.avatar contains "://" %}
+                "{{ post.avatar }}"
+                {% else %}
+                "{{ post.avatar | absolute_url }}"
+                {% endif %}
+                alt="" itemprop="image">
+        </a>
+    </div>
+{% endfor %} 

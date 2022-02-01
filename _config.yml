@@ -56,6 +56,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  program:
+    output: true
+    permalink: /program/:path/
+
   
 # Defaults
 defaults:
@@ -86,7 +90,14 @@ defaults:
       type: news
     values:
       sidebar: false
-      layout: single        
+      layout: single   
+  # _program
+  - scope:
+      path: ""
+      type: program
+    values:
+      sidebar: false
+      layout: single       
 
 category_archive:
   type: liquid
