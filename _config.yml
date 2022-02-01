@@ -4,7 +4,7 @@ description: 'unoficial web site'
 url: "https://upatras-hci.github.io"
 baseurl: "/site"
 repository: "upatras-hci/site"
-#minimal_mistakes_skin: "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 remote_theme: "mmistakes/minimal-mistakes"
@@ -25,6 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
 footer:
@@ -33,12 +34,12 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
 
-include:
-  - _site/
 exclude:
+  - _site/
   - .sass-cache
   - Gemfile.lock
   - .jekyll-metadata
+  - .ruby-version
 
 # Collections
 collections:
