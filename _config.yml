@@ -1,7 +1,7 @@
 title: 'MSc HCI - UPatras'
 email: hcimaster@upatras.gr
 description: 'unoficial web site' 
-url: "hci-upatras.netlify.app"
+url: "https://hci-upatras.netlify.app"
 repository: "upatras-hci/site"
 minimal_mistakes_skin: "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
