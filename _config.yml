@@ -2,6 +2,7 @@ title: 'MSc HCI - UPatras'
 email: hcimaster@upatras.gr
 description: 'unoficial web site' 
 url: "add-timetable.netlify.app"
+baseurl: "/site-1"
 repository: "upatras-hci/site"
 minimal_mistakes_skin: "dirt" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
