@@ -1,0 +1,330 @@
+choko-en:
+ name: "Konstantinos Chorianopoulos"
+ email: "choko@ionio.gr"
+ uri: "http://www.epidro.me"
+ github: "epidrome"
+ bio: "Information Visualization"
+ avatar: "/assets/images/choko.jpg"
+ tel: "+30 26610 87707"
+
+choko:
+ name: "Κωνσταντίνος Χωριανόπουλος"
+ email: "choko@ionio.gr"
+ github: "epidrome"
+ uri: "http://www.epidro.me"
+ bio: "Οπτικοποίηση της Πληροφορίας"
+ avatar: "/assets/images/choko.jpg"
+ tel: "+30 26610 87707"
+
+avouris-en:
+ name: "Nikolaos Avouris"
+ email: "avouris@upatras.gr"
+ uri: "https://hci.ece.upatras.gr/people/avouris/"
+ bio: 
+    - "Interactive Technologies" 
+    - "Front End Web Programming"
+    - "Design of Location-based applications"
+ avatar: "assets/images/avouris.jpg"
+ tel: "+30-2610-996898"
+
+avouris:
+ name: "Νικόλαος Αβούρης"
+ email: "avouris@upatras.gr"
+ uri: "https://hci.ece.upatras.gr/people/avouris/"
+ bio: 
+    - "Διαδραστικές Τεχνολογίες"
+    - "Προγραμματισμός Web Front End"
+    - "Σχεδιασμός location-based εφαρμογών"
+ avatar: "assets/images/avouris.jpg"
+ tel: "+30-2610-996898"
+
+dermatas-en:
+ name: "Evangelos Dermatas"
+ email: "Dermatas@ceid.upatras.gr"
+ uri: "https://www.linkedin.com/in/evangelos-dermatas-00458832/?originalSubdomain=gr"
+ bio: "Introduction to Human-Robot Interaction"
+ avatar: "assets/images/dermatas.jpg"
+ tel: "+302610996476"
+
+dermatas:
+ name: "Ευάγγελος Δερματάς"
+ email: "Dermatas@ceid.upatras.gr"
+ uri: "https://www.linkedin.com/in/evangelos-dermatas-00458832/?originalSubdomain=gr"
+ bio: "Εισαγωγή στην Αλληλεπίδραση Ανθρώπου-Ρομπότ"
+ avatar: "assets/images/dermatas.jpg"
+ tel: "+302610996476"
+
+fakotakis-en:
+ name: "Nikos Fakotakis"
+ email: "fakotaki@upatras.gr"
+ uri: "http://www.wcl.ece.upatras.gr"
+ bio: 
+    - "Artificial Intelligence" 
+    - "Speech and Natural Language Processing"
+ avatar: "assets/images/fakotakis.jpg"
+ tel: "+30-2610-996473"
+
+fakotakis:
+ name: "Νίκος Φακωτάκης"
+ email: "fakotaki@upatras.gr"
+ uri: "http://www.wcl.ece.upatras.gr"
+ bio: 
+    - "Τεχνητή Νοημοσύνη" 
+    - "Επεξεργασία Λόγου και Φυσικής Γλώσσας"
+ avatar: "assets/images/fakotakis.jpg"
+ tel: "+30-2610-996473"
+
+fidas-en:
+ name: "Christos Fidas"
+ email: "fidas@ece.upatras.gr"
+ uri: "http://cfidas.info/"
+ bio: "Ubiquitous Computing"
+ avatar: "assets/images/fidas.jpg"
+ tel: "2610996491"
+
+fidas:
+ name: "Χρήστος Φείδας"
+ email: "fidas@ece.upatras.gr"
+ uri: "http://cfidas.info/"
+ bio: "Διάχυτος Υπολογισμός"
+ avatar: "assets/images/fidas.jpg"
+ tel: "2610996491"
+
+ihatz-en:
+ name: "Ioannis Hatzilygeroudis"
+ email: "ihatz@ceid.upatras.gr"
+ uri:  "http://aigroup.ceid.upatras.gr/ihatz.html"
+ bio: "Ubiquitous Computing"
+ avatar: "assets/images/ihatz.png"
+ tel: "+30 2610 996 937"
+
+ihatz:
+ name: "Ιωάννης Χατζηλυγερούδης"
+ email: "ihatz@ceid.upatras.gr"
+ uri:  "http://aigroup.ceid.upatras.gr/ihatz.html"
+ bio: "Διάχυτος Υπολογισμός"
+ avatar: "assets/images/ihatz.png"
+ tel: "+30 2610 996 937"
+
+karacap-en:
+ name: "Nikos Karacapilidis"
+ email: "karacap@upatras.gr"
+ uri:  "http://imis.upatras.gr/nikos/"
+ bio: "Collaboration Technologies"
+ avatar: "assets/images/karacap.jpg"
+ tel: "(2610) 997906"
+
+karacap:
+ name: "Νίκος Καρακαπιλίδης"
+ email: "karacap@upatras.gr"
+ uri:  "http://imis.upatras.gr/nikos/"
+ bio: "Τεχνολογίες Συνεργασίας"
+ avatar: "assets/images/karacap.jpg"
+ tel: "(2610) 997906"
+ 
+komninos-en:
+ name: "Andreas Komninos"
+ email: "akomninos@ceid.upatras.gr"
+ uri: "http://www.komninos.info/"
+ bio: 
+    - "Ubiquitous Computing" 
+    - "Introduction to Human-Robot Interaction"
+ avatar: "assets/images/komninos.jpg"
+ tel: "+30 2610 996915"
+
+komninos:
+ name: "Ανδρέας Κομνηνός"
+ email: "akomninos@ceid.upatras.gr"
+ uri: "http://www.komninos.info/"
+ bio: 
+    - "Διάχυτος Υπολογισμός" 
+    - "Εισαγωγή στην Αλληλεπίδραση Ανθρώπου-Ρομπότ"
+ avatar: "assets/images/komninos.jpg"
+ tel: "+30 2610 996915"
+
+malefaki-en:
+ name: "Sonia Malefaki"
+ email: "smalefaki@upatras.gr"
+ uri: "http://www.des.upatras.gr/amm/smalefaki/"
+ bio: "Statistical Methods in Human-Computer Interaction"
+ avatar: "assets/images/malefaki.jpg"
+ tel: "2610 997673"
+
+malefaki:
+ name: "Σόνια Μαλεφάκη"
+ email: "smalefaki@upatras.gr"
+ uri: "http://www.des.upatras.gr/amm/smalefaki/"
+ bio: "Στατιστικές Μέθοδοι στην Αλληλεπίδραση Ανθρώπου-Υπολογιστή"
+ avatar: "assets/images/malefaki.jpg"
+ tel: "2610 997673"
+
+marmaras-en:
+ name: "Nicolas Marmaras"
+ email: "marmaras@central.ntua.gr"
+ uri: "http://www.mech.ntua.gr/en/marmaras"
+ bio: "Cognitive Ergonomics"
+ avatar: "assets/images/marmaras.jpg"
+ tel: "(+30) 210 772-3492"
+
+marmaras:
+ name: "Νικόλαος Μαρμαράς"
+ email: "marmaras@central.ntua.gr"
+ uri: "http://www.mech.ntua.gr/en/marmaras"
+ bio: "Γνωστική Εργονομία"
+ avatar: "assets/images/marmaras.jpg"
+ tel: "(+30) 210 772-3492"
+
+mavrommati-en:
+ name: "Mavrommati Irene"
+ email: "marvrommati@eap.gr"
+ uri: "https://www.eap.gr/en/spoudes-sto-eap-2/schools-and-courses/sxoli-efarmosmenwn-texnwn/234-more-of-school-of-applied-arts/2015-6fa1426f37effb03de07102ada6b98c6"
+ bio: 
+    - "Interactive Technologies" 
+    - "Creative Design Lab"
+ avatar: "assets/images/mavrommati.jpg"
+ tel: "-"
+
+mavrommati:
+ name: "Μαυρομμάτη Ειρήνη"
+ email: "marvrommati@eap.gr"
+ uri: "https://www.eap.gr/en/spoudes-sto-eap-2/schools-and-courses/sxoli-efarmosmenwn-texnwn/234-more-of-school-of-applied-arts/2015-6fa1426f37effb03de07102ada6b98c6"
+ bio: 
+    - "Διαδραστικές Τεχνολογίες" 
+    - "Εργαστήριο Δημιουργικού Σχεδιασμού"
+ avatar: "assets/images/mavrommati.jpg"
+ tel: "-"
+
+mouko-en:
+ name: "Konstantinos Moustakas"
+ email: "moustakas@ece.upatras.gr"
+ uri: "http://www.vvr.ece.upatras.gr/index.php/en/?option=com_content&view=article&id=21:moustakas-konstantinos&catid=22:personel&Itemid=360"
+ bio: 
+    - "Computer Graphics and Virtual Reality" 
+    - "Artificial Intelligence"
+ avatar: "assets/images/mouko.jpg"
+ tel: "+302610969809"
+
+mouko:
+ name: "Μουστάκας Κωνσταντίνος"
+ email: "moustakas@ece.upatras.gr"
+ uri: "http://www.vvr.ece.upatras.gr/index.php/en/?option=com_content&view=article&id=21:moustakas-konstantinos&catid=22:personel&Itemid=360"
+ bio: 
+    - "Γραφικά Υπολογιστών και Εικονική Πραγματικότητα" 
+    - "Τεχνητή Νοημοσύνη"
+ avatar: "assets/images/mouko.jpg"
+ tel: "+302610969809"
+
+peppas-en:
+ name: "Pavlos Peppas"
+ email: "pavlos@upatras.gr"
+ uri: "http://www.bma.upatras.gr/staff/pavlos/"
+ bio: "Artificial Intelligence"
+ avatar: "assets/images/peppas.jpg"
+ tel: "+302610997700"
+
+peppas:
+ name: "Πέππας Παύλος"
+ email: "pavlos@upatras.gr"
+ uri: "http://www.bma.upatras.gr/staff/pavlos/"
+ bio: "Artificial Intelligence"
+ avatar: "assets/images/peppas.jpg"
+ tel: "+302610997700"
+
+rigou-en:
+ name: "Maria Rigou"
+ email: "rigou@upatras.gr"
+ uri: "https://www.ceid.upatras.gr/webpages/edip/rigou/"
+ bio: "Design and Evaluation of Interactive Systems"
+ avatar: "assets/images/rigou.png"
+ tel: "+30 2610 962873"
+
+rigou:
+ name: "Μαρία Ρήγκου"
+ email: "rigou@upatras.gr"
+ uri: "https://www.ceid.upatras.gr/webpages/edip/rigou/"
+ bio: "Σχεδιασμός και Αξιολόγηση Συστημάτων Αλληλεπίδρασης"
+ avatar: "assets/images/rigou.png"
+ tel: "+30 2610 962873"
+
+daskalaki-en:
+ name: "Sophia Daskalaki"
+ email: "sdask@upatras.gr"
+ uri: "http://www.des.upatras.gr/amm/daskalaki/personal.htm"
+ bio: "Statistical Methods in Human-Computer Interaction"
+ avatar: "assets/images/sdask.jpg"
+ tel: "+302610997810"
+
+daskalaki:
+ name: "Σοφία Δασκαλάκη"
+ email: "sdask@upatras.gr"
+ uri: "http://www.des.upatras.gr/amm/daskalaki/personal.htm"
+ bio: "Στατιστικές Μέθοδοι στην Αλληλεπίδραση Ανθρώπου-Υπολογιστή"
+ avatar: "assets/images/sdask.jpg"
+ tel: "+302610997810"
+
+sgarbas-en:
+ name: "Kyriakos Sgarbas"
+ email: "sgarbas@upatras.gr"
+ uri: "https://sites.google.com/site/sgarbaskyriakos/"
+ bio: 
+    - "Artificial Intelligence"  
+    - "Speech and Natural Language Processing"
+ avatar: "assets/images/sgarbas.jpg"
+ tel: "+302610996470"
+
+sgarbas:
+ name: "Σοφία Δασκαλάκη"
+ email: "sgarbas@upatras.gr"
+ uri: "https://sites.google.com/site/sgarbaskyriakos/"
+ bio: 
+    - "Τεχνητή Νοημοσύνη" 
+    - "Επεξεργασία Λόγου και Φυσικής Γλώσσας"
+ avatar: "assets/images/sgarbas.jpg"
+ tel: "+302610996470"
+
+sintoris-en:
+ name: "Christos Sintoris"
+ email: "sintoris@upatras.gr"
+ uri: "https://hci.ece.upatras.gr/people/sintoris/"
+ bio: 
+    - "Interactive Technologies" 
+    - "Design of Web Applications" 
+    - "Front End Web Programming"
+    - "Design of Location-based applications"
+ avatar: "assets/images/sintoris.jpg"
+ tel: "+302610996869"
+
+sintoris:
+ name: "Χρήστος Σιντόρης"
+ email: "sintoris@upatras.gr"
+ uri: "https://hci.ece.upatras.gr/people/sintoris/"
+ bio: 
+    - "Διαδραστικές Τεχνολογίες" 
+    - "Προγραμματισμός Web Front End"
+    - "Σχεδιασμός location-based εφαρμογών"
+ avatar: "assets/images/sintoris.jpg"
+ tel: "+302610996869"
+
+xenos-en:
+ name: "Michalis Xenos"
+ email: "xenos@ceid.upatras.gr"
+ uri: "https://www.ceid.upatras.gr/en/staff/faculty/xenos-michalis"
+ bio: 
+    - "Research Methods" 
+    - "Software Quality" 
+    - "Design and Evaluation of Interactive Systems" 
+    - "Introduction to Human-Robot Interaction"
+ avatar: "assets/images/xenos.jpg"
+ tel: "+30 2610 996 944"
+
+xenos:
+ name: "Μιχάλης Ξένος"
+ email: "xenos@ceid.upatras.gr"
+ uri: "https://www.ceid.upatras.gr/en/staff/faculty/xenos-michalis"
+ bio: 
+    - "Μεθοδολογίες Έρευνας" 
+    - "Ποιότητα Λογισμικού" 
+    - "Σχεδιασμός και Αξιολόγηση Συστημάτων Αλληλεπίδρασης" 
+    - "Εισαγωγή στην Αλληλεπίδραση Ανθρώπου-Ρομπότ"
+ avatar: "assets/images/xenos.jpg"
+ tel: "+30 2610 996 944"

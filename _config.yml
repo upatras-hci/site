@@ -65,13 +65,18 @@ defaults:
     values:
       sidebar: false
       layout: single
-  # _people
+   # _people
   - scope:
       path: ""
       type: people
     values:
       sidebar: false
-      layout: single   
+      layout: people
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: false
+      related: false  
   #_courses
   - scope:
       path: ""

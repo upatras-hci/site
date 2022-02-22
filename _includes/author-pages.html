@@ -1,0 +1,16 @@
+{% assign r = 'Ερευνητικά Ενδιαφέροντα' %}
+
+<h2>{{ r }}</h2>
+
+{% if page.research %}
+  {% capture page_interests %}{% for interest in page.research %}{{ interest | downcase }}#{{ interest }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  {% assign interest_hashes = (page_interests | split: ',' | sort:0) %}
+  <p class="page__taxonomy">
+    {% for hash in interest_hashes %}
+      {% assign keyValue = hash | split: '#' %}
+      {% capture interest %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
+      <a href="{{ interest | url_encode | prepend: 'https://scholar.google.gr/scholar?hl=en&as_sdt=0%2C5&q=' }}" class="page__taxonomy-item" rel="tag">{{ interest }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+    {% endfor %}
+    </span>
+  </p>
+{% endif %}

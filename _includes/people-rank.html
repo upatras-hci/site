@@ -1,0 +1,44 @@
+<div id="people-rank-1" class="grid-container" ><h1 class="rank_title">Καθηγητές</h1>
+</div>
+<div id="people-rank-2" class="grid-container" ><h1 class="rank_title">Αναπληρωτές Καθηγητές</h1>
+</div>
+<div id="people-rank-3" class="grid-container" ><h1 class="rank_title">Επίκουροι Καθηγητές</h1>
+</div>
+<div id="people-rank-4" class="grid-container"  ><h1 class="rank_title">Επισκέπτες Καθηγητές</h1>
+</div>
+<div id="people-rank-5" class="grid-container"  ><h1 class="rank_title">ΕΔΙΠ</h1>
+</div>
+<div id="people-rank-6" class="grid-container" ><h1 class="rank_title">ΕΤΕΠ</h1>
+</div>
+<div id="people-rank-7" class="grid-container" ><h1 class="rank_title">Ακαδημαϊκοί Υπότροφοι</h1>
+</div>
+<div id="people-rank-8" class="grid-container" ><h1 class="rank_title">Διοικητικοί Υπάλληλοι</h1>
+</div>
+<div id="people-rank-9" class="grid-container" ><h1 class="rank_title">Ομότιμοι Καθηγητές</h1>
+</div>
+
+
+
+{% assign people = site.people | sort: "rank" %}
+{% for post in people %}
+{% case post.rank %}
+  {% when 1 %}
+      {% include people-rank-div.html content="1" %}
+  {% when 2 %}
+      {% include people-rank-div.html content="2" %}
+  {% when 3 %}
+      {% include people-rank-div.html content="3" %}
+  {% when 4 %}
+      {% include people-rank-div.html content="4" %}
+  {% when 5 %}
+      {% include people-rank-div.html content="5" %}
+  {% when 6 %}
+      {% include people-rank-div.html content="6" %}
+  {% when 7 %}
+      {% include people-rank-div.html content="7" %}
+  {% when 8 %}
+      {% include people-rank-div.html content="8" %}
+  {% when 9 %}
+      {% include people-rank-div.html content="9" %}
+{% endcase %}
+{% endfor %}
